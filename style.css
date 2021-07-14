@@ -1,0 +1,40 @@
+.heading {
+    width: 100%;
+}
+
+.heading h3{
+     float: left;
+     display: inline;
+}
+
+.heading button {
+    float: right;
+    margin: 15px;
+}
+
+#canvas {
+    border: 1px solid black;
+    width: 80%;
+    height: 600px;
+    box-shadow: 5px 6px 10px black;
+    border-radius: 20px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    line-height: 30px;
+    position: fixed;
+    z-index: 20;
+}
+canvas {
+    z-index: 10;
+    margin-top: 55px;
+    border: 1px solid black;
+    width: 80px;
+    height: 600px;
+    box-shadow: 5px 6px 10px black;
+    border-radius: 20px;
+}
