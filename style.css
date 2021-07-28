@@ -27,11 +27,13 @@ font-size: 22px;
     text-align: left;
     font-size: 20px;
 }
-h4
+.footer
 {
-   background-color: grey;
-   color:white;
+   background-color: rgb(255, 255, 255);
+   color:rgb(0, 0, 0);
    line-height: 2;
+   bottom: 0px;
+   position: sticky;
 }
 canvas 
   {
@@ -39,3 +41,7 @@ canvas
       border-radius: 20px;
       box-shadow:  5px 5px 5px white;
   }
+
+body {
+    background-size: cover;
+}

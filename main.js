@@ -1,6 +1,3 @@
-
-/*created by prashant shukla */
-
 var paddle2 =10,paddle1=10;
 
 var paddle1X = 10,paddle1Height = 110;
@@ -25,14 +22,14 @@ rightWristY = 0;
 rightWristX = 0;
 scoreRightWrist = 0;
 
+var taki_taki = "";
+
+function preload() {
+  taki_taki = loadSound("taki taki cover.mp3");
+}
+
 game_status = "";
 
-//var doggo_theme = new Audio("https://saantonandre.github.io/doggo_theme.wav");
-
- function preload() {
-  ball_touch_paddel = loadSound("ball_touch_paddel.wav");
-  missed = loadSound("missed.wav");
-}
 
 function setup(){
 var canvas =  createCanvas(700,600);
@@ -64,6 +61,7 @@ function gotPoses(results)
 
 function startGame()
 {
+  taki_taki.play();
   game_status = "start";
   document.getElementById("status").innerHTML = "Game Is Loading";
 }
